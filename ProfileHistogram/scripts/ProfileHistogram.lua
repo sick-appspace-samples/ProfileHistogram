@@ -8,9 +8,7 @@ local DELAY = 500
 local v = View.create()
 
 -- Create a GraphDecoration object for setting visual properties of the graph plot
-local histogramDeco = View.GraphDecoration.create()
-histogramDeco:setGraphType('BAR')
-histogramDeco:setDrawSize(5)
+local histogramDeco = View.GraphDecoration.create():setGraphType('BAR'):setDrawSize(5)
 
 --End of Global Scope-----------------------------------------------------------
 
